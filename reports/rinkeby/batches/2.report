@@ -1,0 +1,166 @@
+0x56E7a43E99703efe1a390A8aEe175A693118EF71
+Expecting to have deployed 4 candys
+Have deployed 4 candys
+Uploading Images
+lithium-#FFFFFF.png
+helium-#FFFFFF.png
+berilliym-#FFFFFF.png
+hydrogen-#FFFFFF.png
+Uploading metadata file #0: lithium-#FFFFFF.png
+Uploading metadata file #1: helium-#FFFFFF.png
+Uploading metadata file #2: berilliym-#FFFFFF.png
+Uploading metadata file #3: hydrogen-#FFFFFF.png
+
+
+{
+    "lithium-#FFFFFF.png": "https://ipfs.io/ipfs/QmZ2fSpm8v5N62x27gr2DDpJSvD7mtVrzxhKvwc1ANxW9g?filename=lithium-#FFFFFF.png",
+    "helium-#FFFFFF.png": "https://ipfs.io/ipfs/QmZGpmvsCTq6L8s5LuR2iosZCoiR6kgfcom35KByA6hTxG?filename=helium-#FFFFFF.png",
+    "berilliym-#FFFFFF.png": "https://ipfs.io/ipfs/Qma1HCPjSFri72LXP5RBr8mz4iujNiZpqfdkMo47rffr1h?filename=berilliym-#FFFFFF.png",
+    "hydrogen-#FFFFFF.png": "https://ipfs.io/ipfs/QmekYjK3ZH5PM3zkMXbSmHxSB95oymSVwbQSbaCLfNvmTm?filename=hydrogen-#FFFFFF.png"
+}
+
+
+Creating metadata files
+Creating metadata file #0: ./metadata/rinkeby/batches/2/lithium-#FFFFFF.png.json
+Creating metadata file #1: ./metadata/rinkeby/batches/2/helium-#FFFFFF.png.json
+Creating metadata file #2: ./metadata/rinkeby/batches/2/berilliym-#FFFFFF.png.json
+Creating metadata file #3: ./metadata/rinkeby/batches/2/hydrogen-#FFFFFF.png.json
+
+
+{
+    "./metadata/rinkeby/batches/2/lithium-#FFFFFF.png.json": {
+        "name": 8,
+        "description": "",
+        "image": "https://ipfs.io/ipfs/QmekYjK3ZH5PM3zkMXbSmHxSB95oymSVwbQSbaCLfNvmTm?filename=hydrogen-#FFFFFF.png",
+        "attributes": [
+            {
+                "trait_type": "Found on the laboratory floor",
+                "value": true
+            },
+            {
+                "trait_type": "story",
+                "value": "suisuss slipped on a bored banana at the Candy Bay Research Lab and found this candy underneath a table."
+            },
+            {
+                "trait_type": "Probability of containing some narcotic",
+                "value": 0.1
+            }
+        ]
+    },
+    "./metadata/rinkeby/batches/2/helium-#FFFFFF.png.json": {
+        "name": 8,
+        "description": "",
+        "image": "https://ipfs.io/ipfs/QmekYjK3ZH5PM3zkMXbSmHxSB95oymSVwbQSbaCLfNvmTm?filename=hydrogen-#FFFFFF.png",
+        "attributes": [
+            {
+                "trait_type": "Found on the laboratory floor",
+                "value": true
+            },
+            {
+                "trait_type": "story",
+                "value": "suisuss slipped on a bored banana at the Candy Bay Research Lab and found this candy underneath a table."
+            },
+            {
+                "trait_type": "Probability of containing some narcotic",
+                "value": 0.1
+            }
+        ]
+    },
+    "./metadata/rinkeby/batches/2/berilliym-#FFFFFF.png.json": {
+        "name": 8,
+        "description": "",
+        "image": "https://ipfs.io/ipfs/QmekYjK3ZH5PM3zkMXbSmHxSB95oymSVwbQSbaCLfNvmTm?filename=hydrogen-#FFFFFF.png",
+        "attributes": [
+            {
+                "trait_type": "Found on the laboratory floor",
+                "value": true
+            },
+            {
+                "trait_type": "story",
+                "value": "suisuss slipped on a bored banana at the Candy Bay Research Lab and found this candy underneath a table."
+            },
+            {
+                "trait_type": "Probability of containing some narcotic",
+                "value": 0.1
+            }
+        ]
+    },
+    "./metadata/rinkeby/batches/2/hydrogen-#FFFFFF.png.json": {
+        "name": 8,
+        "description": "",
+        "image": "https://ipfs.io/ipfs/QmekYjK3ZH5PM3zkMXbSmHxSB95oymSVwbQSbaCLfNvmTm?filename=hydrogen-#FFFFFF.png",
+        "attributes": [
+            {
+                "trait_type": "Found on the laboratory floor",
+                "value": true
+            },
+            {
+                "trait_type": "story",
+                "value": "suisuss slipped on a bored banana at the Candy Bay Research Lab and found this candy underneath a table."
+            },
+            {
+                "trait_type": "Probability of containing some narcotic",
+                "value": 0.1
+            }
+        ]
+    }
+}
+
+
+Uploading metadata files
+lithium-#FFFFFF.png.json
+helium-#FFFFFF.png.json
+berilliym-#FFFFFF.png.json
+hydrogen-#FFFFFF.png.json
+Uploading metadata file #0: lithium-#FFFFFF.png.json
+Uploading metadata file #1: helium-#FFFFFF.png.json
+Uploading metadata file #2: berilliym-#FFFFFF.png.json
+Uploading metadata file #3: hydrogen-#FFFFFF.png.json
+
+
+{
+    "lithium-#FFFFFF.png.json": "https://ipfs.io/ipfs/QmT8DncYVqDvVDxu1CSBYcBbQhJ6onHw6wzx6Fan8MsMej?filename=lithium-#FFFFFF.png.json",
+    "helium-#FFFFFF.png.json": "https://ipfs.io/ipfs/QmYu4phHJAFSWfTc8nKpyQw5g1onckdZPG6et56TNp4R3t?filename=helium-#FFFFFF.png.json",
+    "berilliym-#FFFFFF.png.json": "https://ipfs.io/ipfs/QmatWTx1w2MPGXXwkEeTkafVvbLYyZbrM3tEU66MEiW5wD?filename=berilliym-#FFFFFF.png.json",
+    "hydrogen-#FFFFFF.png.json": "https://ipfs.io/ipfs/QmQMzrjC5rSGTmVCTQsepHyw5F2pDnxLsmbxu6pRPY3u57?filename=hydrogen-#FFFFFF.png.json"
+}
+
+
+Minting collectibles
+Transaction sent: [0;1;34m0x2f0ab58a6449107e6971a90bc14e02b7137d70b39c65dcf5f3ffd571338be0ee[0;m
+  Gas price: [0;1;34m1.00000001[0;m gwei   Gas limit: [0;1;34m38182[0;m   Nonce: [0;1;34m28[0;m
+  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  LinkTokenInterface.transfer confirmed   Block: [0;1;34m9253682[0;m   Gas used: [0;1;34m34711[0;m ([0;1;34m90.91%[0;m)
+
+Funded 0x56E7a43E99703efe1a390A8aEe175A693118EF71
+Transaction sent: [0;1;34m0x30e966d71321470e589b7f341beffbf3e9ba2f83418b247ec834244f8e489b6f[0;m
+  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Gas price: [0;1;34m1.00000001[0;m gwei   Gas limit: [0;1;34m278067[0;m   Nonce: [0;1;34m29[0;m
+  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253683[0;m   Gas used: [0;1;34m252789[0;m ([0;1;34m90.91%[0;m)
+
+Waiting on second transaction...
+  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253683[0;m   Gas used: [0;1;34m252789[0;m ([0;1;34m90.91%[0;m)
+
+TokenId for lithium-#FFFFFF.png.json is 0
+Transaction sent: [0;1;34m0x1e3f8750a1c0d56d6f084e4454400a793a4c289ec3826c2fa523900554ce3b38[0;m
+  Gas price: [0;1;34m1.00000001[0;m gwei   Gas limit: [0;1;34m278054[0;m   Nonce: [0;1;34m30[0;m
+  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253687[0;m   Gas used: [0;1;34m252777[0;m ([0;1;34m90.91%[0;m)
+
+Waiting on second transaction...
+  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253687[0;m   Gas used: [0;1;34m252777[0;m ([0;1;34m90.91%[0;m)
+
+TokenId for helium-#FFFFFF.png.json is 0
+Transaction sent: [0;1;34m0x29d027644b6dcc607c3f8e9b6acba1497abf75b19ba48e318114af009a30708d[0;m
+  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Gas price: [0;1;34m1.000000009[0;m gwei   Gas limit: [0;1;34m278094[0;m   Nonce: [0;1;34m31[0;m
+  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253691[0;m   Gas used: [0;1;34m252813[0;m ([0;1;34m90.91%[0;m)
+
+Waiting on second transaction...
+  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253691[0;m   Gas used: [0;1;34m252813[0;m ([0;1;34m90.91%[0;m)
+
+TokenId for berilliym-#FFFFFF.png.json is 0
+Transaction sent: [0;1;34m0xfcb2b2340d8dc2734b6c5d09165b0b7aa3406503bb89cd9987e0752131ebd265[0;m
+  Gas price: [0;1;34m1.000000009[0;m gwei   Gas limit: [0;1;34m278081[0;m   Nonce: [0;1;34m32[0;m
+  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253695[0;m   Gas used: [0;1;34m252801[0;m ([0;1;34m90.91%[0;m)
+
+Waiting on second transaction...
+  AdvancedCollectible.createCollectible confirmed   Block: [0;1;34m9253695[0;m   Gas used: [0;1;34m252801[0;m ([0;1;34m90.91%[0;m)
+
+TokenId for hydrogen-#FFFFFF.png.json is 0

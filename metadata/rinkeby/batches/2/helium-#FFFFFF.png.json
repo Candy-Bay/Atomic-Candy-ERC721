@@ -1,0 +1,19 @@
+{
+    "name": 6,
+    "description": "",
+    "image": "https://ipfs.io/ipfs/QmZGpmvsCTq6L8s5LuR2iosZCoiR6kgfcom35KByA6hTxG?filename=helium-#FFFFFF.png",
+    "attributes": [
+        {
+            "trait_type": "Found on the laboratory floor",
+            "value": true
+        },
+        {
+            "trait_type": "story",
+            "value": "suisuss slipped on a bored banana at the Candy Bay Research Lab and found this candy underneath a table."
+        },
+        {
+            "trait_type": "Probability of containing some narcotic",
+            "value": 0.1
+        }
+    ]
+}
