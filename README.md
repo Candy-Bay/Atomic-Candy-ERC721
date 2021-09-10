@@ -71,7 +71,7 @@ You can 100% use the rinkeby testnet to see your NFTs rendered on opensea, but i
 
 ### Running Scripts
 
-The simple collectibles work on a local network,  however the advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
+The advanced requires a testnet. We default to rinkeby since that seems to be the testing standard for NFT platforms. You will need testnet rinkeby ETH and testnet Rinkeby LINK. You can find faucets for both in the [Chainlink documentation](https://docs.chain.link/docs/link-token-contracts#rinkeby). 
 
 
 # For the Advanced ERC721
@@ -81,8 +81,8 @@ You'll need [testnet Rinkeby](https://faucet.rinkeby.io/) and [testnet LINK](htt
 Put the images for your batch in the `./img/{NETWORK_YOU_ARE_DEPLOYING_TO}/batches/{BATCH_NO}/` directory
 
 ```
-brownie run scripts/advanced_collectible/deploy_advanced.py --network rinkeby
-brownie run scripts/simple_collectible/mint_candy.py --network rinkeby
+brownie run scripts/advanced_candy/deploy_advanced.py --network rinkeby
+brownie run scripts/advanced_candy/mint_candy.py --network rinkeby
 ```
 
 ## Verify on Etherscan
@@ -110,7 +110,7 @@ Set `export IPFS_URL=http://127.0.0.1:5001` and `export UPLOAD_IPFS=true` enviro
 Run the IPFS daemon: `ipfs daemon`
 Then Run
 ```
-brownie run scripts/advanced_collectible/mint_candy.py --network rinkeby
+brownie run scripts/advanced_candy/mint_candy.py --network rinkeby
 ```
 
 Alternatively, you could upload the uri manually:
@@ -120,13 +120,13 @@ Add the file created in `metadata/rinkeby/NAME.json` to [IPFS](https://ipfs.io/)
 
 Just run:
 ```
-brownie run scripts/advanced_collectible/create_metadata.py --network rinkeby
+brownie run scripts/advanced_candy/create_metadata.py --network rinkeby
 ```
 
 2. Set the tokenURI 
 Run
 ```
-brownie run scripts/advanced_collectible/set_tokenuri.py --network rinkeby
+brownie run scripts/advanced_candy/set_tokenuri.py --network rinkeby
 ```
 
 

@@ -1,4 +1,4 @@
-from brownie import AdvancedCollectible, accounts, config, network
+from brownie import AdvancedCandy, accounts, config, network
 from scripts.utils import fund_with_link, upload_to_ipfs, upload_to_pinata
 import time
 import os
@@ -49,15 +49,15 @@ def main():
     stdoutOrigin=sys.stdout 
     sys.stdout = open(f"./reports/{network.show_active()}/batches/{config['batch']}.report", "w")
 
-    advanced_collectible = AdvancedCollectible[len(AdvancedCollectible) - 1]
-    print(advanced_collectible.address)
-    number_of_advanced_collectibles = advanced_collectible.tokenCounter()
-    calc_number_of_advanced_collectibles = ((config['batch'] - 1) * 4)
+    advanced_candy = AdvancedCandy[len(AdvancedCandy) - 1]
+    print(advanced_candy.address)
+    number_of_advanced_candys = advanced_candy.tokenCounter()
+    calc_number_of_advanced_candys = ((config['batch'] - 1) * 4)
 
-    print(f"Expecting to have deployed {calc_number_of_advanced_collectibles} candys")
-    print(f"Have deployed {number_of_advanced_collectibles} candys")
+    print(f"Expecting to have deployed {calc_number_of_advanced_candys} candys")
+    print(f"Have deployed {number_of_advanced_candys} candys")
 
-    if calc_number_of_advanced_collectibles == number_of_advanced_collectibles:
+    if calc_number_of_advanced_candys == number_of_advanced_candys:
         print("Uploading Images")
         image_dic = dict()
         upload_files(f"./img/{network.show_active()}/batches/{config['batch']}", image_dic)
@@ -69,7 +69,7 @@ def main():
 
         print("Creating metadata files")
         local_metadata_dic = dict()
-        create_metadata(local_metadata_dic, image_dic, number_of_advanced_collectibles)
+        create_metadata(local_metadata_dic, image_dic, number_of_advanced_candys)
         print("\n")
         print(json.dumps(local_metadata_dic, indent=4))
         print("\n")
@@ -83,7 +83,7 @@ def main():
 
 
         print("Minting collectibles")
-        create_collectibles(ipfs_metadata_dic)
+        create_candys(ipfs_metadata_dic)
 
     else: 
         print("Your batch number is for a batch that has already roled out.")
@@ -109,7 +109,7 @@ def upload_files(path_of_the_directory, dic):
 
 
 
-def create_metadata(local_metadata_list, image_dic, number_of_advanced_collectibles):
+def create_metadata(local_metadata_list, image_dic, number_of_advanced_candys):
 
     if len(image_dic) == 4:
         for i, (key, value) in enumerate(image_dic.items()):
@@ -117,7 +117,7 @@ def create_metadata(local_metadata_list, image_dic, number_of_advanced_collectib
             collectible_metadata = metadata_template.metadata_template
 
             print(f"Creating metadata file #{i}: {metadata_file_name}")
-            collectible_metadata["name"] = number_of_advanced_collectibles + i + 1
+            collectible_metadata["name"] = number_of_advanced_candys + i + 1
 
            # collectible_metadata["description"] = key NO DESCRIPTION
 
@@ -128,20 +128,20 @@ def create_metadata(local_metadata_list, image_dic, number_of_advanced_collectib
             local_metadata_list[metadata_file_name] = collectible_metadata
 
 
-def create_collectibles(ipfs_metadata_dic):
+def create_candys(ipfs_metadata_dic):
     dev = accounts.add(config["wallets"]["from_key"])
     # Get most recent deployment of Advanced Collectible
-    advanced_collectible = AdvancedCollectible[len(AdvancedCollectible) - 1]
-    fund_with_link(advanced_collectible.address)
+    advanced_candy = AdvancedCandy[len(AdvancedCandy) - 1]
+    fund_with_link(advanced_candy.address)
     # Create collectible with no URI. Will add URI with set_tokenuri.py later
 
     for key, uri in ipfs_metadata_dic.items():
-        transaction = advanced_collectible.createCollectible(uri, {"from": dev})
+        transaction = advanced_candy.createCandy(uri, {"from": dev})
         print("Waiting on second transaction...")
         # wait for the 2nd transaction
         transaction.wait(1)
         time.sleep(45)
 
         requestId = transaction.events["requestedCollectible"]["requestId"] # Get request ID from transaction
-        token_id = advanced_collectible.requestIdToTokenId(requestId) # Get token ID
+        token_id = advanced_candy.requestIdToTokenId(requestId) # Get token ID
         print(f"TokenId for {key} is {token_id}")
