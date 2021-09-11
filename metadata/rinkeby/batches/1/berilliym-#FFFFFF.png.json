@@ -1,19 +1,6 @@
 {
-    "name": "berilliym-#FFFFFF.png",
-    "description": "berilliym-#FFFFFF.png",
+    "name": 3,
+    "description": "",
     "image": "https://ipfs.io/ipfs/Qma1HCPjSFri72LXP5RBr8mz4iujNiZpqfdkMo47rffr1h?filename=berilliym-#FFFFFF.png",
-    "attributes": [
-        {
-            "trait_type": "Found on the laboratory floor",
-            "value": true
-        },
-        {
-            "trait_type": "story",
-            "value": "suisuss slipped on a bored banana at the Candy Bay Research Lab and found this candy underneath a table."
-        },
-        {
-            "trait_type": "Probability of containing some narcotic",
-            "value": 0.1
-        }
-    ]
+    "attributes": []
 }

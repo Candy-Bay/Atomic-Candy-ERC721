@@ -10,13 +10,14 @@ import time
 import sys 
 
 
+
 def main():
     advanced_candy = AdvancedCandy[len(AdvancedCandy) - 1]
     number_of_advanced_candys = advanced_candy.tokenCounter()
 
     for token_id in range(number_of_advanced_candys):
         print(token_id, advanced_candy.tokenURI(token_id))
-        #advanced_candy.setTokenURI
+        print(token_id, advanced_candy.ownerOf(token_id))
 
     #dev = accounts.add(config["wallets"]["from_key"])
     #advanced_candy.setTokenURI(0, advanced_candy.tokenURI(1), {"from": dev})
