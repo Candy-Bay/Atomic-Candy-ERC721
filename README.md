@@ -65,7 +65,7 @@ Or you can run the above in your shell.
 # Usage
 
 There is one type of NFT here. 
-1. `AdvancedCollectibles.sol`
+1. `AdvancedCandy.sol`
 
 You can 100% use the rinkeby testnet to see your NFTs rendered on opensea, but it's suggested that you test and build on a local development network so you don't have to wait as long for transactions. 
 
@@ -81,7 +81,7 @@ You'll need [testnet Rinkeby](https://faucet.rinkeby.io/) and [testnet LINK](htt
 Put the images for your batch in the `./img/{NETWORK_YOU_ARE_DEPLOYING_TO}/batches/{BATCH_NO}/` directory
 
 ```
-brownie run scripts/advanced_candy/deploy_advanced.py --network rinkeby
+brownie run scripts/advanced_candy/deploy_advanced_candy.py --network rinkeby
 brownie run scripts/advanced_candy/mint_candy.py --network rinkeby
 ```
 
@@ -89,7 +89,7 @@ brownie run scripts/advanced_candy/mint_candy.py --network rinkeby
 
 > Looking for help fixing this!
 
-Currently, the advanced collectibles contract has an issue with ERC721 and the Chainlink contracts, so they have be verified manually.
+Currently, the AdvancedCandy contract has an issue with ERC721 and the Chainlink contracts, so they have be verified manually.
 
 ### Misc
 There are some helpful scripts in `helpful_scripts.py`.
@@ -115,22 +115,6 @@ brownie run scripts/advanced_candy/mint_candy.py --network rinkeby
 
 Alternatively, you could upload the uri manually:
 Add the file created in `metadata/rinkeby/NAME.json` to [IPFS](https://ipfs.io/) or [Pinata](https://pinata.cloud/). 
-
-### If you want to use the metadata from this repo
-
-Just run:
-```
-brownie run scripts/advanced_candy/create_metadata.py --network rinkeby
-```
-
-2. Set the tokenURI 
-Run
-```
-brownie run scripts/advanced_candy/set_tokenuri.py --network rinkeby
-```
-
-
-And after some time, (you may have to wait up to 20 minutes for it to render on opensea), you should see your NFT on opensea! [It'll look something like this.](https://testnets.opensea.io/assets/0x8acb7ca932892eb83e4411b59309d44dddbc4cdf/0)
 
 ## Pinata
 
