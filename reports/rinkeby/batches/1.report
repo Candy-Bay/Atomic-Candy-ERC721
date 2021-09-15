@@ -1,4 +1,4 @@
-0x0A1b17146bffB7B3c5be455B6973a12f6417F51F
+0x01384E358f7a30887681113ca035F4cAF22cE801
 Expecting to have deployed 0 candys
 Have deployed 0 candys
 Uploading Images
@@ -75,40 +75,22 @@ Uploading metadata file #3: hydrogen-#FFFFFF.png.json
 
 
 Minting collectibles
-Transaction sent: [0;1;34m0xb484c9bc0d51b9f4fd811b6292de63367a23ff5d085fb123b1a2efade17f0900[0;m
-  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Gas price: [0;1;34m1.000000014[0;m gwei   Gas limit: [0;1;34m38182[0;m   Nonce: [0;1;34m35[0;m
-  LinkTokenInterface.transfer confirmed   Block: [0;1;34m9273372[0;m   Gas used: [0;1;34m34711[0;m ([0;1;34m90.91%[0;m)
-
-Funded 0x0A1b17146bffB7B3c5be455B6973a12f6417F51F
-Transaction sent: [0;1;34m0x3429986a656c81bbca25336270c4a98f2ed8edf1e11865f62fe6190fc0caee9d[0;m
-  Gas price: [0;1;34m1.000000014[0;m gwei   Gas limit: [0;1;34m318434[0;m   Nonce: [0;1;34m36[0;m
-  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273373[0;m   Gas used: [0;1;34m289486[0;m ([0;1;34m90.91%[0;m)
-
-Waiting on second transaction...
-  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273373[0;m   Gas used: [0;1;34m289486[0;m ([0;1;34m90.91%[0;m)
-
-TokenId for lithium-#FFFFFF.png.json is 0
-Transaction sent: [0;1;34m0xe58b7ae91de6ee7d759001acfa31b0ebf83e05f58dac317f5ca89b99bfd91e44[0;m
-  Gas price: [0;1;34m1.000000016[0;m gwei   Gas limit: [0;1;34m280801[0;m   Nonce: [0;1;34m37[0;m
-  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273377[0;m   Gas used: [0;1;34m255274[0;m ([0;1;34m90.91%[0;m)
-
-Waiting on second transaction...
-  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273377[0;m   Gas used: [0;1;34m255274[0;m ([0;1;34m90.91%[0;m)
-
-TokenId for helium-#FFFFFF.png.json is 0
-Transaction sent: [0;1;34m0x65c5eebaa9f8a7da8777af910bbe3f3d2b496dfbdc7bd8fc424ad1caff329688[0;m
-  Gas price: [0;1;34m1.000000016[0;m gwei   Gas limit: [0;1;34m280841[0;m   Nonce: [0;1;34m38[0;m
-  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  Waiting for confirmation... -  Waiting for confirmation... \  Waiting for confirmation... |  Waiting for confirmation... /  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273381[0;m   Gas used: [0;1;34m255310[0;m ([0;1;34m90.91%[0;m)
-
-Waiting on second transaction...
-  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273381[0;m   Gas used: [0;1;34m255310[0;m ([0;1;34m90.91%[0;m)
-
-TokenId for berilliym-#FFFFFF.png.json is 0
-Transaction sent: [0;1;34m0x05355d58dc90123a8897cb7b13e575a64f5e3539d386c26127dce63076bb6eb4[0;m
-  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Awaiting transaction in the mempool... /  Awaiting transaction in the mempool... -  Awaiting transaction in the mempool... \  Awaiting transaction in the mempool... |  Gas price: [0;1;34m1.000000015[0;m gwei   Gas limit: [0;1;34m280827[0;m   Nonce: [0;1;34m39[0;m
-  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273385[0;m   Gas used: [0;1;34m255298[0;m ([0;1;34m90.91%[0;m)
-
-Waiting on second transaction...
-  AdvancedCandy.createCandy confirmed   Block: [0;1;34m9273385[0;m   Gas used: [0;1;34m255298[0;m ([0;1;34m90.91%[0;m)
-
-TokenId for hydrogen-#FFFFFF.png.json is 0
+  [0;2;37mFile [0;1;35m"brownie/_cli/run.py"[0;2;37m, line [0;1;34m49[0;2;37m, in [0;1;36mmain[0;m
+    return_value, frame = run(
+  [0;2;37mFile [0;1;35m"brownie/project/scripts.py"[0;2;37m, line [0;1;34m103[0;2;37m, in [0;1;36mrun[0;m
+    return_value = f_locals[method_name](*args, **kwargs)
+  [0;2;37mFile [0;1;35m"./scripts/advanced_candy/mint_candy.py"[0;2;37m, line [0;1;34m86[0;2;37m, in [0;1;36mmain[0;m
+    create_candys(ipfs_metadata_dic)
+  [0;2;37mFile [0;1;35m"./scripts/advanced_candy/mint_candy.py"[0;2;37m, line [0;1;34m137[0;2;37m, in [0;1;36mcreate_candys[0;m
+    transaction = advanced_candy.createCandy(uri, {"from": dev})
+  [0;2;37mFile [0;1;35m"brownie/network/contract.py"[0;2;37m, line [0;1;34m1692[0;2;37m, in [0;1;36m__call__[0;m
+    return self.transact(*args)
+  [0;2;37mFile [0;1;35m"brownie/network/contract.py"[0;2;37m, line [0;1;34m1565[0;2;37m, in [0;1;36mtransact[0;m
+    return tx["from"].transfer(
+  [0;2;37mFile [0;1;35m"brownie/network/account.py"[0;2;37m, line [0;1;34m642[0;2;37m, in [0;1;36mtransfer[0;m
+    receipt, exc = self._make_transaction(
+  [0;2;37mFile [0;1;35m"brownie/network/account.py"[0;2;37m, line [0;1;34m725[0;2;37m, in [0;1;36m_make_transaction[0;m
+    raise VirtualMachineError(e) from None
+  [0;2;37mFile [0;1;35m"brownie/exceptions.py"[0;2;37m, line [0;1;34m121[0;2;37m, in [0;1;36m__init__[0;m
+    raise ValueError(str(exc)) from None
+[0;1;31mValueError[0;m: Gas estimation failed: 'execution reverted: ERC721: mint to the zero address'. This transaction will likely revert. If you wish to broadcast, you must set the gas limit manually.

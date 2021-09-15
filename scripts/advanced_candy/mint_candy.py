@@ -1,5 +1,5 @@
 from brownie import AdvancedCandy, accounts, config, network
-from scripts.utils import fund_with_link, upload_to_ipfs, upload_to_pinata
+from scripts.utils import upload_to_ipfs, upload_to_pinata
 import time
 import os
 from metadata import metadata_template
@@ -47,7 +47,7 @@ ipfs_metadata_dict = {
 def main():
 
     stdoutOrigin=sys.stdout 
-    sys.stdout = open(f"./reports/{network.show_active()}/batches/{config['batch']}.report", "w")
+    # sys.stdout = open(f"./reports/{network.show_active()}/batches/{config['batch']}.report", "w")
 
     advanced_candy = AdvancedCandy[len(AdvancedCandy) - 1]
     print(advanced_candy.address)
@@ -88,8 +88,8 @@ def main():
     else: 
         print("Your batch number is for a batch that has already roled out.")
 
-    sys.stdout.close()
-    sys.stdout=stdoutOrigin
+    #sys.stdout.close()
+    #sys.stdout=stdoutOrigin
 
 
 def upload_files(path_of_the_directory, dic):
@@ -132,8 +132,6 @@ def create_candys(ipfs_metadata_dic):
     dev = accounts.add(config["wallets"]["from_key"])
     # Get most recent deployment of Advanced Collectible
     advanced_candy = AdvancedCandy[len(AdvancedCandy) - 1]
-    fund_with_link(advanced_candy.address)
-    # Create collectible with no URI. Will add URI with set_tokenuri.py later
 
     for key, uri in ipfs_metadata_dic.items():
         transaction = advanced_candy.createCandy(uri, {"from": dev})

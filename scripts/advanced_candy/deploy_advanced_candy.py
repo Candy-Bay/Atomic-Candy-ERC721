@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 from brownie import AdvancedCandy, accounts, network, config
-from scripts.utils import fund_with_link
 
 
 def main():
@@ -8,12 +7,5 @@ def main():
     print(network.show_active())
     # publish_source = True if os.getenv("ETHERSCAN_TOKEN") else False # Currently having an issue with this
     publish_source = False
-    advanced_candy = AdvancedCandy.deploy(
-        config["networks"][network.show_active()]["vrf_coordinator"],
-        config["networks"][network.show_active()]["link_token"],
-        config["networks"][network.show_active()]["keyhash"],
-        {"from": dev},
-        publish_source=publish_source,
-    )
-    fund_with_link(advanced_candy.address)
+    advanced_candy = AdvancedCandy.deploy({"from": dev}, publish_source=publish_source)
     return advanced_candy
